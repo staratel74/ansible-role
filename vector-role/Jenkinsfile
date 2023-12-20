@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'linux'
+        label 'centos7'
     }
     stages {
         stage('Git') {
