@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Molecule test'){
             steps{
-                dir('ector-role/') {
+                dir('vector-role/') {
                     sh 'ls -l'
                     sh 'molecule test'
                     cleanWs()
